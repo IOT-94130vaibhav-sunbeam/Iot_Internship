@@ -1,0 +1,14 @@
+num = int(input("Enter a 5-digit number: "))
+
+original = num
+reversed_num = 0
+
+while num > 0:
+    digit = num % 10
+    reversed_num = reversed_num * 10 + digit
+    num = num // 10
+
+if original == reversed_num:
+    print("The number is a palindrome.")
+else:
+    print("The number is not a palindrome.")
