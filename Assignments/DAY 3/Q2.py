@@ -1,0 +1,17 @@
+s = "Hello World"
+
+print("Original string:", s)
+
+print("s[0:5]:", s[0:5])   
+print("s[6:11]:", s[6:11])  
+
+print("s[:5]:", s[:5])    
+print("s[6:]:", s[6:])    
+
+print("s[-5:]:", s[-5:])   
+print("s[:-6]:", s[:-6])   
+
+print("s[::2]:", s[::2])    
+print("s[::1]:", s[::1])  
+
+print("s[::-1]:", s[::-1])

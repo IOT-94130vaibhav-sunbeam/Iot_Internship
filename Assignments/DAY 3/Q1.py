@@ -1,0 +1,12 @@
+s = "   Hello World   "
+
+print("Original string:", s)
+
+print("lower():", s.lower())
+print("upper():", s.upper())
+print("title():", s.title())
+print("capitalize():", s.capitalize())
+print("swapcase():", s.swapcase())
+print("strip():", s.strip())
+print("lstrip():", s.lstrip())
+print("rstrip():", s.rstrip())

@@ -1,0 +1,6 @@
+
+x=int(INPUT("USER NAME"))
+y=INPUT("USER AGE")
+
+PRINT("USER NAME",x)
+PRINT("USER AGE",y)
